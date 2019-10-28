@@ -3,7 +3,7 @@ import os
 import comtypes.client
 
 wdFormatPDF = 17
-
+#while compiling add your doc and pdf which you would expect 
 in_file = os.path.abspath(sys.argv[1])
 out_file = os.path.abspath(sys.argv[2])
 
